@@ -5,40 +5,41 @@
 
 ## 1. Tools Used & Use Cases
 
-### ChatGPT
-I used ChatGPT during this assignment for:
+### ChatGPT  
+ChatGPT was used as a support tool during development for:
 
-- Generating the initial structure of HTML, CSS, and JavaScript files.
-- Explaining JavaScript concepts such as `localStorage`, IIFE (Immediately Invoked Function Expressions), and regular expressions.
-- Debugging layout and responsiveness issues.
-- Suggesting improvements for accessibility and user experience.
-- Helping structure documentation files properly.
+- Clarifying HTML, CSS, and JavaScript concepts.
+- Explaining how certain features work (such as `localStorage`, DOM manipulation, and event handling).
+- Assisting in debugging layout and responsiveness issues.
+- Providing UI/UX improvement suggestions.
+- Helping refine documentation formatting.
 
-ChatGPT was primarily used as a learning and problem-solving assistant.
-
----
-
-### GitHub Copilot
-I used GitHub Copilot inside VS Code for:
-
-- Auto-completing repetitive CSS properties.
-- Suggesting event listener structures in JavaScript.
-- Speeding up form validation logic.
-
-Copilot helped reduce development time, but all suggestions were reviewed before being accepted.
+It was mainly used for explanation, guidance, and troubleshooting rather than direct code production.
 
 ---
 
-## 2. AI-Supported Features Beyond Course Coverage
+### GitHub Copilot  
+GitHub Copilot was used inside VS Code to:
 
-The following features were implemented with AI assistance and were not explicitly covered in the course:
+- Suggest syntax completions.
+- Speed up repetitive CSS and JavaScript patterns.
+- Provide quick structural suggestions.
 
-- Theme toggle using `localStorage`
-- CSS variables for theme switching
-- Immediately Invoked Function Expressions (IIFE)
-- Dynamic ARIA attribute updates for accessibility
+All suggestions were reviewed, tested, and modified where necessary.
 
-Before including these features, I ensured that I understood how each one works and tested them independently.
+---
+
+## 2. AI-Supported Enhancements
+
+AI assistance contributed to refining and improving certain features, including:
+
+- Theme toggle persistence using `localStorage`
+- Dynamic filtering in the Skills section
+- Improving accessibility and keyboard interaction
+- Enhancing UI design (glass-style filter buttons)
+- Maintaining consistent image aspect ratios across devices
+
+These features were implemented after understanding the underlying concepts and adapting them to fit assignment requirements.
 
 ---
 
@@ -46,42 +47,38 @@ Before including these features, I ensured that I understood how each one works 
 
 ### Benefits
 
-- Faster development process
-- Clear explanations for unfamiliar concepts
-- Improved debugging efficiency
-- Better structured and organized code
-- Increased confidence in implementing new features
+- Faster clarification of unfamiliar concepts  
+- Improved debugging efficiency  
+- Better structured documentation  
+- Enhanced UI consistency  
 
 ### Challenges
 
-- Some AI suggestions were more complex than necessary
-- Required manual verification to ensure correctness
-- Needed simplification to match assignment scope
-- Ensured alignment with course requirements
+- Some suggestions required simplification  
+- Needed manual verification to ensure correctness  
+- Adjusted complexity to match course scope  
 
 ---
 
 ## 4. Learning Outcomes
 
-Using AI during this assignment helped me:
+Through guided AI assistance, I:
 
-- Strengthen my understanding of DOM manipulation
-- Learn how browser storage (`localStorage`) works
-- Improve form validation techniques
-- Understand accessibility improvements using ARIA attributes
-- Apply CSS variables effectively for maintainable design
-- Develop better debugging and problem-solving strategies
+- Strengthened my understanding of DOM manipulation  
+- Improved form validation techniques  
+- Learned how browser storage works  
+- Applied responsive design principles more effectively  
+- Enhanced accessibility using ARIA attributes  
+- Improved overall project organization  
 
 ---
 
-## 5. Responsible Use & Modifications
+## 5. Responsible Use
 
-To ensure academic integrity and responsible AI use, I:
+To ensure academic integrity:
 
-- Reviewed and tested all AI-generated code
-- Modified suggestions to fit assignment requirements
-- Removed unnecessary complexity
-- Verified functionality manually
-- Ensured I understood every implemented feature
+- AI suggestions were treated as guidance and explanations.
+- I ensured full understanding of each implemented feature.
+- The final structure and logic were organized and refined manually.
 
-AI was used as a learning support tool, not as a replacement for understanding. 
+AI was used as a supplementary learning tool to enhance understanding and workflow efficiency.
