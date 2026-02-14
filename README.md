@@ -1,99 +1,110 @@
-# Personal Portfolio Website
+# Personal Portfolio Website  
 
-**Assignment 1 -- Foundation & AI Integration**
+**Assignment 1 — Foundation & AI Integration**
 
-------------------------------------------------------------------------
+---
 
-## Project Description
+## Project Description  
 
-This project is a responsive personal portfolio website built using
-HTML, CSS, and JavaScript.\
-It serves as the foundation of a professional portfolio and
-demonstrates:
+This project is a fully responsive personal portfolio website built using **HTML, CSS, and JavaScript**.  
 
--   Semantic HTML structure\
--   Responsive layout using CSS\
--   Basic interactivity using JavaScript\
--   Clean file organization\
--   AI-assisted development integration
+It represents the foundation of my professional portfolio and demonstrates structured front-end development principles, clean UI design, and interactive functionality.
 
-The website includes three main sections:
+The website includes four main sections:
 
--   **About Me** -- Introduction and dynamic greeting\
--   **Projects** -- Sample project cards\
--   **Contact** -- Interactive form (frontend only)
+- **About Me** — Personal introduction with dynamic time-based greeting  
+- **Skills** — Interactive skills section with category filtering  
+- **Projects** — Featured academic and technical projects  
+- **Contact** — Interactive frontend form with validation  
 
-------------------------------------------------------------------------
+---
 
-## Technologies Used
+## Technologies Used  
 
--   HTML5\
--   CSS3 (Flexbox, Grid, Media Queries, CSS Variables)\
--   Vanilla JavaScript\
--   LocalStorage API
+- **HTML5** (Semantic structure & accessibility)
+- **CSS3**
+  - Flexbox
+  - CSS Grid
+  - Media Queries
+  - CSS Variables
+  - Glassmorphism UI styling
+- **Vanilla JavaScript**
+  - DOM Manipulation
+  - Event Handling
+  - LocalStorage API
+  - Dynamic content rendering
+- **ARIA attributes** for accessibility
 
-------------------------------------------------------------------------
+---
 
-## How to Run Locally
+## Key Features  
 
-1.  Download or clone the repository:
+- Fully responsive layout (Desktop, Tablet, Mobile)
+- Light/Dark theme toggle (stored in LocalStorage)
+- Time-based dynamic greeting
+- Mobile navigation menu
+- Interactive Skills filtering system
+- Glass-style segmented filter buttons
+- Dynamic skills rendering from JavaScript array
+- Basic form validation (no backend)
+- Accessibility enhancements (ARIA, keyboard support)
+- Organized project card layout with fixed aspect-ratio images
 
-    ``` bash
-    git clone <your-repository-link>
-    ```
+---
 
-2.  Open the project folder.
+## Skills Section (New Feature)
 
-3.  Open `index.html` in your browser:
+A dynamic Skills section was added with:
 
-    -   Double-click the file\
-        OR\
-    -   Right-click → Open with browser
+- Category filters (All, Frontend, Backend, Tools)
+- Glass-style segmented filter buttons
+- JavaScript-rendered skill pills
+- Keyboard accessibility support
+- Clean category-based filtering logic
 
-No additional installation or dependencies are required.
+This section demonstrates structured data handling and dynamic DOM updates.
 
-------------------------------------------------------------------------
+---
 
-## Features
+## How to Run Locally  
 
--   Responsive design (desktop, tablet, mobile)
--   Light/Dark theme toggle (saved in browser storage)
--   Time-based greeting message
--   Mobile navigation menu
--   Basic form validation
--   Accessibility improvements (ARIA attributes)
+1. Clone the repository:
 
-------------------------------------------------------------------------
+```bash
+git clone https://github.com/ReemaAlqahtani1/202280860-ReemaAlQahtani-assignment1.git
+```
 
-## AI Usage Summary
+2. Open the project folder.
 
-AI tools were used during development for:
+3. Open `index.html` in your browser:
+   - Double-click the file  
+   OR  
+   - Right-click → Open with browser  
 
--   Code structure suggestions\
--   Debugging assistance\
--   UI/UX improvement ideas\
--   Explanation of unfamiliar concepts\
--   Documentation formatting
+No installation or dependencies are required.
 
-A detailed explanation of AI usage is available in:
+---
 
-    docs/ai-usage-report.md
+## AI Usage Summary  
 
-------------------------------------------------------------------------
+AI tools were used to assist with:
 
-## Live Deployment (Optional)
+- Code structure improvements  
+- UI/UX enhancement ideas  
+- Responsive layout refinement  
+- Filter logic optimization  
+- Debugging assistance  
+- Documentation formatting  
 
-If deployed, the live version can be accessed at:
+A detailed explanation is available in:
 
--   GitHub Pages:\
--   Netlify:\
--   Vercel:
+```
+docs/ai-usage-report.md
+```
 
-(Deployment link can be added here.)
+---
 
-------------------------------------------------------------------------
+## Author  
 
-## Author
-
-Reema S. AlQahtani\
-Software Engineering Student
+**Reema S. AlQahtani**  
+Software Engineering Student  
